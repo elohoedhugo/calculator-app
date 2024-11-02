@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="styles1.css" id="style">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+
+  <title> Calculator app- copy</title>
+ 
+</head>
+
+<body>
+  <div class="calculator-div">
+    <div class="themeNumberDiv">
+      <span>1</span>
+      <span>2</span>
+      <span>3</span>
+    </div>
+
+    <div class="navDiv">
+      <h1>calc</h1>
+      <p>THEME</p>
+      <div>
+        <button class="firstbutton" onclick="toggleTheme('styles1.css')"></button>
+        <button class="secondbutton" onclick="toggleTheme('styles2.css')"></button>
+        <button class="thirdbutton" onclick="toggleTheme('styles3.css')"></button>
+      </div>
+    </div>
+
+    <div class="displayDiv" id="displayDiv">
+
+    </div>
+
+    <div class="keypadDiv">
+
+      <button class="char">7</button>
+      <button class="char">8</button>
+      <button class="char">9</button>
+      <button id="deletebutton">DEL</button>
+      <button class="char">4</button>
+      <button class="char">5</button>
+      <button class="char">6</button>
+      <button class="char">+</button>
+      <button class="char">1</button>
+      <button class="char">2</button>
+      <button class="char">3</button>
+      <button class="char">-</button>
+      <button class="char">.</button>
+      <button class="char">0</button>
+      <button class="char">/</button>
+      <button class="char">*</button>
+      <button id="resetbutton">RESET</button>
+      <button id="equalbutton">=</button>
+
+
+    </div>
+
+
+  </div>
+
+  
+  <script src="script.js"></script>
+</body>
+
+</html>

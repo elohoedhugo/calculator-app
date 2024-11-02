@@ -1,0 +1,161 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: hsl(268, 75%, 9%);
+}
+
+.calculator-div {
+ width: 30vw;
+ height: 81vh;
+ position: fixed;
+ top: 0;
+ left: 0;
+ bottom: 0;
+ right: 0;
+ margin: auto;
+}
+.themeNumberDiv {
+  height: 20px;
+  width: 80px;
+  margin-left: 425px;
+  text-align: right;
+  
+}
+span{
+  font-family: League Spartan;
+  color: hsl(52, 100%, 62%);
+  font-weight: 700;
+  font-size: 13px;
+  margin-left: 13px;
+}
+
+.navDiv {
+  display: flex;
+  
+}
+
+.navDiv h1{
+  font-family: League Spartan;
+  color: hsl(52, 100%, 62%);
+  font-weight: 700;
+  font-size: 32px;
+  width: 60px; 
+  margin-right: 40vh;
+}
+
+.navDiv p{
+  font-family: League Spartan;
+  color:  hsl(52, 100%, 62%);
+  font-weight: 700;
+  font-size: 13px;
+  padding-top: 13px;
+  margin-right: 30px;
+}
+
+.navDiv div {
+  padding-top: 3px;
+  text-align: right;
+  border-radius: 20px;
+  background-color: hsl(268, 71%, 12%);
+  width: 70px;
+  height: 25px;
+}
+
+.navDiv div button{
+ background-color: hsl(176, 100%, 44%);
+ height: 14px;
+ width: 14px;
+ border: none;
+ border-radius: 50%;
+ margin-right: 4px;
+ cursor: pointer;
+}
+
+.navDiv div button:active{
+  background-color: color-mix(in hsl,  hsl(176, 100%, 44%)50%, white 50%);
+}
+
+.displayDiv {
+  height: 120px;
+  margin-top: 30px;
+  border-radius: 10px;
+  background-color: hsl(268, 71%, 12%);
+  color: hsl(52, 100%, 62%);
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  font-size: 32px;
+  padding-inline: 20px;
+  font-family: League Spartan;
+  font-weight: 700;
+}
+
+.keypadDiv {
+  height: 440px;
+  margin-top: 25px;
+  border-radius: 10px;
+  background-color: hsl(268, 71%, 12%);
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: grid;
+  padding-top: 30px;
+  padding-left:40px ;
+  padding-right: 20px;
+}
+
+.keypadDiv button{
+  height: 60px;
+  margin-right: 25px;
+  border-radius: 10px;
+  border: none;
+  font-size: 32px;
+  font-weight: 700;
+  color: hsl(52, 100%, 62%);
+  background-color: hsl(268, 47%, 21%);
+  cursor: pointer;
+  font-family: League Spartan;
+  box-shadow: 0px 6px 2px -2px hsl(290, 70%, 36%);
+}
+
+.keypadDiv button:active{
+  background-color: color-mix(in hsl,  hsl(268, 47%, 21%)70%, white 30%);
+}
+
+#deletebutton{
+  font-size: 20px;
+  color:hsl(0, 0%, 100%);
+  background-color: hsl(281, 89%, 26%);
+  box-shadow: 0px 6px 2px -2px  hsl(285, 91%, 52%);
+  
+}
+
+ #deletebutton:active{
+  background-color: color-mix(in hsl,  hsl(281, 89%, 26%)70%, white 30%);
+}
+
+#resetbutton {
+  font-size: 20px;
+  color:hsl(0, 0%, 100%);
+  background-color: hsl(281, 89%, 26%);
+  box-shadow: 0px 6px 2px -2px  hsl(285, 91%, 52%);
+  grid-column: span 2;
+}
+
+#resetbutton:active{
+  background-color: color-mix(in hsl,  hsl(281, 89%, 26%)70%, white 30%);
+}
+
+#equalbutton {
+  font-size: 20px;
+  color:hsl(198, 20%, 13%);
+  background-color:  hsl(176, 100%, 44%);
+  box-shadow: 0px 6px 2px -2px hsl(177, 92%, 70%);
+  grid-column: span 2;
+}
+
+#equalbutton:active{
+  background-color: color-mix(in hsl,  hsl(176, 100%, 44%)50%, white 50%);
+}
